@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="none">
+  <test name="Login with correct creds">
+  <parameter name="testName" value="Login with valid username/password" />
+    <classes>
+      <class name="tests.FinalPurchase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login with wrong user">
+    <classes>
+      <class name="tests.DropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

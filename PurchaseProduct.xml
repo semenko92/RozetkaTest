@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<test name= "FinalPurchase">
+    <classes>
+      <class name="tests.FinalPurchase"/>
+      <parameter name="userName" value="realanswood@gmail.com" />
+      <parameter name="password" value="Cthutq2019" />
+      <parameter name="surName" value="Семенко" />
+      <parameter name="telephone" value="0965385403" />
+ </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
